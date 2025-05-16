@@ -1,19 +1,1210 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Festejando a Conexão Campo × Cidade</title>
+  <title>Sabores do Campo na Cidade | Paraná</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>…</header>
+  <!-- Header com navegação -->
+  <header>
+    <div class="header-container">
+      <div class="logo-container">
+        <img src="https://placehold.co/50x50/4A6741/FFFFFF?text=Logo" alt="Logo Sabores do Campo" class="logo-img">
+        <h1 class="logo">Sabores do Campo</h1>
+      </div>
+      
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      
+      <nav>
+        <ul>
+          <li><a href="#inicio"><i class="fas fa-home"></i> Início</a></li>
+          <li><a href="#parana-agricola"><i class="fas fa-map-marked-alt"></i> Paraná Agrícola</a></li>
+          <li><a href="#do-campo-a-mesa"><i class="fas fa-tractor"></i> Do Campo à Mesa</a></li>
+          <li><a href="#produtores"><i class="fas fa-users"></i> Produtores</a></li>
+          <li><a href="#receitas"><i class="fas fa-utensils"></i> Receitas</a></li>
+          <li><a href="#calendario"><i class="fas fa-calendar-alt"></i> Calendário</a></li>
+          <li><a href="#feiras"><i class="fas fa-store"></i> Feiras</a></li>
+          <li><a href="#galeria"><i class="fas fa-images"></i> Galeria</a></li>
+          <li><a href="#sobre"><i class="fas fa-info-circle"></i> Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Paraná Rural</div>
+      <h1 class="hero-title">SABORES DO CAMPO NA CIDADE</h1>
+      <p class="hero-subtitle">Celebrando a conexão entre o campo paranaense e a cidade</p>
+      <div class="hero-buttons">
+        <a href="#inicio" class="btn btn-primary">Conheça o Projeto</a>
+        <a href="#parana-agricola" class="btn btn-secondary">Paraná Agrícola</a>
+      </div>
+      <a href="#inicio" class="scroll-btn">
+        Deslize para descobrir
+        <span class="arrow-down"><i class="fas fa-chevron-down"></i></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Main Content -->
   <main>
-    <section id="intro">…</section>
-    <section id="campo">…</section>
-    <section id="conexao">…</section>
-    <section id="cidade">…</section>
+    <!-- Início Section -->
+    <section id="inicio" class="section">
+      <div class="section-container">
+        <div class="section-text">
+          <div class="section-badge">Bem-vindo</div>
+          <h2 class="section-title">Conectando o Campo e a Cidade</h2>
+          <p>
+            Descubra como os sabores do campo paranaense enriquecem a vida na cidade.
+            Este projeto explora a origem dos alimentos, receitas tradicionais
+            e a presença dos produtos rurais nos centros urbanos do Paraná.
+          </p>
+          <p>
+            O Paraná é um dos maiores produtores agrícolas do Brasil, com uma diversidade 
+            impressionante de culturas e produtos. Da soja ao café, das frutas às hortaliças, 
+            o estado alimenta não apenas sua população, mas contribui significativamente 
+            para a segurança alimentar do país e do mundo.
+          </p>
+          <p>
+            Neste projeto, celebramos essa relação de interdependência e 
+            valorizamos o trabalho dos agricultores paranaenses que, com suas mãos calejadas, 
+            cultivam os alimentos que chegam à nossa mesa todos os dias.
+          </p>
+          <div class="feature-cards">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-leaf"></i>
+              </div>
+              <h3>Agricultura Sustentável</h3>
+              <p>Práticas que respeitam o meio ambiente e garantem o futuro</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-apple-alt"></i>
+              </div>
+              <h3>Alimentos Saudáveis</h3>
+              <p>Produtos frescos e nutritivos direto do campo</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-handshake"></i>
+              </div>
+              <h3>Comércio Justo</h3>
+              <p>Valorização do trabalho dos produtores rurais</p>
+            </div>
+          </div>
+        </div>
+        <div class="section-image">
+          <div class="image-container">
+            <img src="https://www.aen.pr.gov.br/sites/default/arquivos_restritos/files/imagem/migrados/galeria/65119/JAJA5056_copia.jpg" alt="Agricultura paranaense em ação">
+          </div>
+          <div class="image-badges">
+            <span>Sustentabilidade</span>
+            <span>Tradição</span>
+            <span>Inovação</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Paraná Agrícola Section -->
+    <section id="parana-agricola" class="section bg-pattern">
+      <div class="section-container column">
+        <div class="section-badge">Celeiro do Brasil</div>
+        <h2 class="section-title">Paraná Agrícola</h2>
+        <p class="section-intro">
+          O Paraná é um dos estados mais importantes para a agricultura brasileira, 
+          destacando-se na produção de grãos, proteína animal, hortifrutigranjeiros e diversos outros produtos.
+        </p>
+        
+        <div class="regions-container">
+          <div class="regions-grid">
+            <div class="region-card">
+              <div class="region-header">
+                <h3>Norte</h3>
+              </div>
+              <div class="region-content">
+                <p><strong>Principais produtos:</strong> Café, cana-de-açúcar, laranja, milho</p>
+                <p><strong>Destaque:</strong> Londrina e Maringá formam um importante polo agroindustrial</p>
+                <div class="region-products">
+                  <span><i class="fas fa-coffee"></i> Café</span>
+                  <span><i class="fas fa-seedling"></i> Cana</span>
+                  <span><i class="fas fa-lemon"></i> Laranja</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="region-card">
+              <div class="region-header">
+                <h3>Noroeste</h3>
+              </div>
+              <div class="region-content">
+                <p><strong>Principais produtos:</strong> Mandioca, cana-de-açúcar, laranja, bovinos</p>
+                <p><strong>Destaque:</strong> Maior produção de mandioca do estado</p>
+                <div class="region-products">
+                  <span><i class="fas fa-carrot"></i> Mandioca</span>
+                  <span><i class="fas fa-seedling"></i> Cana</span>
+                  <span><i class="fas fa-cow"></i> Bovinos</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="region-card">
+              <div class="region-header">
+                <h3>Oeste</h3>
+              </div>
+              <div class="region-content">
+                <p><strong>Principais produtos:</strong> Soja, milho, aves, suínos</p>
+                <p><strong>Destaque:</strong> Cascavel é um dos maiores polos agroindustriais do país</p>
+                <div class="region-products">
+                  <span><i class="fas fa-seedling"></i> Soja</span>
+                  <span><i class="fas fa-wheat-awn"></i> Milho</span>
+                  <span><i class="fas fa-drumstick-bite"></i> Aves</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="region-card">
+              <div class="region-header">
+                <h3>Sudoeste</h3>
+              </div>
+              <div class="region-content">
+                <p><strong>Principais produtos:</strong> Leite, soja, milho, frutas</p>
+                <p><strong>Destaque:</strong> Forte presença da agricultura familiar</p>
+                <div class="region-products">
+                  <span><i class="fas fa-wine-bottle"></i> Leite</span>
+                  <span><i class="fas fa-seedling"></i> Soja</span>
+                  <span><i class="fas fa-apple-alt"></i> Frutas</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="region-card">
+              <div class="region-header">
+                <h3>Centro-Sul</h3>
+              </div>
+              <div class="region-content">
+                <p><strong>Principais produtos:</strong> Batata, feijão, trigo, cevada</p>
+                <p><strong>Destaque:</strong> Guarapuava é referência na produção de malte para cervejarias</p>
+                <div class="region-products">
+                  <span><i class="fas fa-carrot"></i> Batata</span>
+                  <span><i class="fas fa-seedling"></i> Feijão</span>
+                  <span><i class="fas fa-wheat-awn"></i> Trigo</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="region-card">
+              <div class="region-header">
+                <h3>Campos Gerais</h3>
+              </div>
+              <div class="region-content">
+                <p><strong>Principais produtos:</strong> Soja, milho, trigo, cevada, leite</p>
+                <p><strong>Destaque:</strong> Ponta Grossa é um importante centro logístico agrícola</p>
+                <div class="region-products">
+                  <span><i class="fas fa-seedling"></i> Soja</span>
+                  <span><i class="fas fa-wheat-awn"></i> Trigo</span>
+                  <span><i class="fas fa-wine-bottle"></i> Leite</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="region-card">
+              <div class="region-header">
+                <h3>Litoral</h3>
+              </div>
+              <div class="region-content">
+                <p><strong>Principais produtos:</strong> Banana, palmito, mandioca, pesca</p>
+                <p><strong>Destaque:</strong> Produção de orgânicos e agricultura sustentável</p>
+                <div class="region-products">
+                  <span><i class="fas fa-apple-alt"></i> Banana</span>
+                  <span><i class="fas fa-leaf"></i> Palmito</span>
+                  <span><i class="fas fa-fish"></i> Pesca</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="parana-stats">
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-wheat-awn"></i></div>
+            <div class="stat-number">2º</div>
+            <div class="stat-description">Maior produtor de grãos do Brasil</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-drumstick-bite"></i></div>
+            <div class="stat-number">1º</div>
+            <div class="stat-description">Maior produtor de frango do país</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-bacon"></i></div>
+            <div class="stat-number">2º</div>
+            <div class="stat-description">Em produção de suínos</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-fish"></i></div>
+            <div class="stat-number">1º</div>
+            <div class="stat-description">Em produção de tilápia</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-seedling"></i></div>
+            <div class="stat-number">15%</div>
+            <div class="stat-description">Da produção agrícola brasileira</div>
+          </div>
+        </div>
+        
+        <div class="parana-products">
+          <h3>Principais Produtos Agrícolas</h3>
+          <div class="products-grid">
+            <div class="product-item">
+              <img src="https://emporio4estrelas.vtexassets.com/arquivos/ids/158260/soja-em-grao-500g.png?v=636937186232630000" alt="Soja">
+              <h4>Soja</h4>
+              <p>19,8 milhões de toneladas/ano</p>
+            </div>
+            <div class="product-item">
+              <img src="https://www.infoescola.com/wp-content/uploads/2010/12/milho_616104491.jpg" alt="Milho">
+              <h4>Milho</h4>
+              <p>14,5 milhões de toneladas/ano</p>
+            </div>
+            <div class="product-item">
+              <img src="https://img.freepik.com/fotos-gratis/campo-com-espigas-fecha-o-fundo-com-espigas-de-trigo_661209-259.jpg" alt="Trigo">
+              <h4>Trigo</h4>
+              <p>3,4 milhões de toneladas/ano</p>
+            </div>
+            <div class="product-item">
+              <img src="https://www.universodasaudeanimal.com.br/wp-content/uploads/sites/57/2021/07/Leghorn-e-uma-das-racas-de-galinhas-poedeiras-mais-famosas-1.jpg" alt="Frango">
+              <h4>Frango</h4>
+              <p>4,2 milhões de toneladas/ano</p>
+            </div>
+            <div class="product-item">
+              <img src="https://s2-g1.glbimg.com/DIdsMSmQXjUtoaQTKD5RrrPMhww=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/N/m/aQXLbLRrulZz0VJa4ZZA/foto2.jpg" alt="Leite">
+              <h4>Leite</h4>
+              <p>4,3 bilhões de litros/ano</p>
+            </div>
+            <div class="product-item">
+              <img src="https://image.tuasaude.com/media/article/gr/uw/mandioca_57085.jpg" alt="Mandioca">
+              <h4>Mandioca</h4>
+              <p>3,2 milhões de toneladas/ano</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Do Campo à Mesa Section -->
+    <section id="do-campo-a-mesa" class="section bg-pattern-light">
+      <div class="section-container reverse">
+        <div class="section-image">
+          <div class="image-container">
+            <img src="https://www.fazenda.pr.gov.br/sites/default/arquivos_restritos/files/imagem/2024-08/tomate024.jpg" alt="Representação das etapas da produção agrícola">
+          </div>
+        </div>
+        <div class="section-text">
+          <div class="section-badge">Jornada dos Alimentos</div>
+          <h2 class="section-title">Do Campo à Mesa</h2>
+          <p>
+            Conheça o caminho que os alimentos percorrem desde as fazendas paranaenses até chegar à sua mesa.
+            Cada etapa é fundamental para garantir alimentos frescos, seguros e nutritivos.
+          </p>
+          
+          <div class="journey-steps">
+            <div class="journey-step">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h3>Plantio e Cultivo</h3>
+                <p>No Paraná, o plantio segue um calendário agrícola específico para cada região. Os agricultores utilizam técnicas avançadas de plantio direto, que preservam o solo e aumentam a produtividade. O estado é referência em agricultura de precisão, com uso de GPS, drones e sensores para otimizar o uso de recursos.</p>
+              </div>
+            </div>
+            
+            <div class="journey-step">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h3>Colheita</h3>
+                <p>A colheita no Paraná é altamente mecanizada para grãos como soja, milho e trigo. Já produtos como frutas, verduras e legumes são frequentemente colhidos manualmente para preservar sua integridade. O estado conta com uma das maiores frotas de máquinas agrícolas do país.</p>
+              </div>
+            </div>
+            
+            <div class="journey-step">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h3>Processamento</h3>
+                <p>O Paraná possui um forte parque agroindustrial, com cooperativas e empresas que processam os alimentos próximo às áreas de produção. A Coamo, maior cooperativa da América Latina, e a C.Vale são exemplos de sucesso no processamento de grãos e proteínas.</p>
+              </div>
+            </div>
+            
+            <div class="journey-step">
+              <div class="step-number">4</div>
+              <div class="step-content">
+                <h3>Transporte e Distribuição</h3>
+                <p>O sistema logístico paranaense inclui rodovias, ferrovias e o Porto de Paranaguá, um dos principais do país para exportação de grãos. Para produtos que abastecem o mercado interno, as Centrais de Abastecimento do Paraná (Ceasa) em Curitiba, Londrina, Maringá, Cascavel e Foz do Iguaçu são fundamentais.</p>
+              </div>
+            </div>
+            
+            <div class="journey-step">
+              <div class="step-number">5</div>
+              <div class="step-content">
+                <h3>Comercialização</h3>
+                <p>Os produtos chegam aos consumidores através de feiras do produtor, mercados municipais, supermercados e programas institucionais como o PNAE (Programa Nacional de Alimentação Escolar) e PAA (Programa de Aquisição de Alimentos), que compram diretamente da agricultura familiar.</p>
+              </div>
+            </div>
+            
+            <div class="journey-step">
+              <div class="step-number">6</div>
+              <div class="step-content">
+                <h3>Consumo Consciente</h3>
+                <p>O consumidor paranaense tem valorizado cada vez mais os produtos locais, orgânicos e da agricultura familiar. Iniciativas como o selo "Produto do Paraná" ajudam a identificar e valorizar os alimentos produzidos no estado.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="fact-box">
+            <div class="fact-icon"><i class="fas fa-lightbulb"></i></div>
+            <div class="fact-content">
+              <h3>Você sabia?</h3>
+              <p>O Paraná possui mais de 305 mil estabelecimentos agropecuários, sendo que 80% deles são de agricultura familiar. Esses pequenos produtores são responsáveis por grande parte dos alimentos que chegam à mesa dos paranaenses todos os dias!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produtores Section -->
+    <section id="produtores" class="section">
+      <div class="section-container column">
+        <div class="section-badge">Histórias do Campo</div>
+        <h2 class="section-title">Produtores Paranaenses</h2>
+        <p class="section-intro">
+          Conheça alguns dos produtores rurais que abastecem as cidades paranaenses com alimentos frescos e de qualidade. 
+          Suas histórias de dedicação e amor pela terra inspiram nossa conexão com o campo.
+        </p>
+        
+        <div class="producers-grid">
+          <div class="producer-card">
+            <div class="producer-image">
+              <img src="https://rondoniaovivo.com/imagensNoticias/japonesesemRO.jpg" alt="Família Tanabe em sua horta orgânica">
+            </div>
+            <div class="producer-info">
+              <div class="producer-location"><i class="fas fa-map-marker-alt"></i> Morretes, PR</div>
+              <h3>Família Tanabe</h3>
+              <p class="producer-specialty"><i class="fas fa-leaf"></i> Hortaliças Orgânicas</p>
+              <p>
+                Descendentes de japoneses, a família Tanabe cultiva hortaliças orgânicas há três gerações em Morretes, 
+                no litoral paranaense. Sua propriedade de 5 hectares é certificada para produção orgânica e abastece 
+                restaurantes e feiras em Curitiba e região metropolitana.
+              </p>
+              <p class="producer-quote">
+                "Nosso compromisso é com a saúde da terra e das pessoas. Cada vegetal que cultivamos leva um pouco da nossa história e do nosso cuidado."
+              </p>
+              <div class="producer-products">
+                <span>Alface</span>
+                <span>Rúcula</span>
+                <span>Tomate Cereja</span>
+                <span>PANCs</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="producer-card">
+            <div class="producer-image">
+              <img src="https://witmarsum.coop.br/wp-content/uploads/2022/10/queijos_finos_logo-1.png" alt="Cooperativa Witmarsum">
+            </div>
+            <div class="producer-info">
+              <div class="producer-location"><i class="fas fa-map-marker-alt"></i> Palmeira, PR</div>
+              <h3>Cooperativa Witmarsum</h3>
+              <p class="producer-specialty"><i class="fas fa-cheese"></i> Laticínios e Grãos</p>
+              <p>
+                Fundada por imigrantes menonitas em 1952, a Cooperativa Witmarsum é referência na produção de 
+                laticínios de alta qualidade. Localizada em Palmeira, nos Campos Gerais, reúne mais de 200 
+                famílias produtoras que mantêm vivas as tradições europeias na fabricação de queijos e derivados.
+              </p>
+              <p class="producer-quote">
+                "Nossa cooperativa une tradição e inovação. Preservamos técnicas centenárias, mas investimos em tecnologia para garantir produtos de excelência."
+              </p>
+              <div class="producer-products">
+                <span>Queijos</span>
+                <span>Iogurtes</span>
+                <span>Manteiga</span>
+                <span>Soja</span>
+                <span>Milho</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="producer-card">
+            <div class="producer-image">
+              <img src="https://live.staticflickr.com/2291/2373258150_c295f08c4e_z.jpg" alt="Família Kohatsu com seus produtos">
+            </div>
+            <div class="producer-info">
+              <div class="producer-location"><i class="fas fa-map-marker-alt"></i> Assaí, PR</div>
+              <h3>Família Kohatsu</h3>
+              <p class="producer-specialty"><i class="fas fa-apple-alt"></i> Frutas e Café</p>
+              <p>
+                No Norte do Paraná, a família Kohatsu se destaca na produção de frutas e café especial. 
+                Com 30 hectares em Assaí, eles cultivam uvas finas, morangos e café arábica de altitude, 
+                utilizando técnicas sustentáveis e inovadoras.
+              </p>
+              <p class="producer-quote">
+                "O segredo está no respeito aos ciclos naturais e na paixão pelo que fazemos. Cada fruta que produzimos carrega o sabor da nossa terra vermelha."
+              </p>
+              <div class="producer-products">
+                <span>Uvas</span>
+                <span>Morangos</span>
+                <span>Café</span>
+                <span>Sucos Naturais</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="impact-stats">
+          <div class="stat-item">
+            <span class="stat-number">80%</span>
+            <p>dos alimentos consumidos no Paraná vêm da agricultura familiar</p>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">305</span>
+            <p>mil estabelecimentos agropecuários no estado</p>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">15%</span>
+            <p>do PIB paranaense vem do agronegócio</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Receitas Section -->
+    <section id="receitas" class="section bg-pattern">
+      <div class="section-container column">
+        <div class="section-badge">Sabores Paranaenses</div>
+        <h2 class="section-title">Receitas Típicas</h2>
+        <p class="section-intro">
+          O Paraná possui uma culinária rica e diversificada, influenciada por imigrantes europeus, 
+          indígenas e tropeiros. Conheça algumas receitas tradicionais que utilizam ingredientes locais.
+        </p>
+        
+        <div class="recipes-container">
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="https://www.viagem20.com.br/projeto/viagem20/arquivos/conteudo/big/sabores-e-saberes-2.jpg" alt="Barreado paranaense">
+              <div class="recipe-badge">Prato Principal</div>
+            </div>
+            <div class="recipe-content">
+              <h3>Barreado</h3>
+              <div class="recipe-details">
+                <div class="recipe-info">
+                  <span class="recipe-time"><i class="fas fa-clock"></i> Preparo: 8 horas</span>
+                  <span class="recipe-portions"><i class="fas fa-utensils"></i> Rende: 10 porções</span>
+                  <span class="recipe-difficulty"><i class="fas fa-signal"></i> Dificuldade: Média</span>
+                  <span class="recipe-region"><i class="fas fa-map-marker-alt"></i> Origem: Litoral Paranaense</span>
+                </div>
+                <div class="recipe-ingredients">
+                  <h4><i class="fas fa-shopping-basket"></i> Ingredientes:</h4>
+                  <ul>
+                    <li>2 kg de carne bovina (patinho ou coxão mole)</li>
+                    <li>200g de toucinho</li>
+                    <li>2 cebolas grandes picadas</li>
+                    <li>6 dentes de alho amassados</li>
+                    <li>4 folhas de louro</li>
+                    <li>1 colher de sopa de cominho</li>
+                    <li>2 colheres de sopa de colorau</li>
+                    <li>Sal e pimenta a gosto</li>
+                    <li>Farinha de mandioca para acompanhar</li>
+                    <li>Banana e laranja para acompanhar</li>
+                  </ul>
+                </div>
+                <div class="recipe-preparation">
+                  <h4><i class="fas fa-mortar-pestle"></i> Modo de Preparo:</h4>
+                  <ol>
+                    <li>Corte a carne em cubos grandes e tempere com alho, sal e pimenta.</li>
+                    <li>Em uma panela de barro (tradicionalmente), coloque o toucinho, a cebola, o cominho, o colorau e as folhas de louro.</li>
+                    <li>Adicione a carne temperada e cubra com água.</li>
+                    <li>Tampe a panela com uma folha de bananeira (ou papel alumínio) e depois com a tampa.</li>
+                    <li>Vede bem as bordas com uma massa feita de farinha de trigo e água (barreamento).</li>
+                    <li>Cozinhe em fogo baixo por aproximadamente 8 horas.</li>
+                    <li>Sirva com farinha de mandioca, banana e laranja.</li>
+                  </ol>
+                </div>
+                <div class="recipe-tip">
+                  <h4><i class="fas fa-lightbulb"></i> Curiosidade:</h4>
+                  <p>O Barreado é um prato típico do litoral paranaense, especialmente das cidades de Morretes, Antonina e Paranaguá. Sua origem remonta ao período colonial e está ligado às festividades do carnaval. O nome vem da técnica de "barrear" (vedar com barro) a tampa da panela para não deixar o vapor escapar.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="https://www.estadao.com.br/resizer/v2/ZSVQIGHZV5NNPP5LZSYSO5LMAM.jpg?quality=80&auth=84adbdb71cf1f51a3a01a368d5495ff09138878023a3b1d09cec2616c3c32e80&width=1200&height=1200&focal=0,0" alt="Pierogi paranaense">
+              <div class="recipe-badge">Acompanhamento</div>
+            </div>
+            <div class="recipe-content">
+              <h3>Pierogi</h3>
+              <div class="recipe-details">
+                <div class="recipe-info">
+                  <span class="recipe-time"><i class="fas fa-clock"></i> Preparo: 90 min</span>
+                  <span class="recipe-portions"><i class="fas fa-utensils"></i> Rende: 30 unidades</span>
+                  <span class="recipe-difficulty"><i class="fas fa-signal"></i> Dificuldade: Média</span>
+                  <span class="recipe-region"><i class="fas fa-map-marker-alt"></i> Origem: Colônias Polonesas</span>
+                </div>
+                <div class="recipe-ingredients">
+                  <h4><i class="fas fa-shopping-basket"></i> Ingredientes da Massa:</h4>
+                  <ul>
+                    <li>3 xícaras de farinha de trigo</li>
+                    <li>1 ovo</li>
+                    <li>1 colher de sopa de óleo</li>
+                    <li>1 pitada de sal</li>
+                    <li>1 xícara de água morna</li>
+                  </ul>
+                  <h4><i class="fas fa-shopping-basket"></i> Ingredientes do Recheio:</h4>
+                  <ul>
+                    <li>500g de batata cozida e amassada</li>
+                    <li>250g de requeijão ou ricota</li>
+                    <li>1 cebola média picada e refogada</li>
+                    <li>Sal e pimenta a gosto</li>
+                  </ul>
+                </div>
+                <div class="recipe-preparation">
+                  <h4><i class="fas fa-mortar-pestle"></i> Modo de Preparo:</h4>
+                  <ol>
+                    <li>Para a massa, misture todos os ingredientes até obter uma massa lisa e homogênea.</li>
+                    <li>Deixe a massa descansar por 30 minutos coberta com um pano.</li>
+                    <li>Enquanto isso, prepare o recheio misturando todos os ingredientes.</li>
+                    <li>Abra a massa com um rolo até ficar fina e corte em círculos de aproximadamente 7cm de diâmetro.</li>
+                    <li>Coloque uma porção de recheio no centro de cada círculo.</li>
+                    <li>Dobre ao meio formando uma meia-lua e aperte bem as bordas para fechar.</li>
+                    <li>Cozinhe em água fervente com sal até que flutuem (cerca de 3-4 minutos).</li>
+                    <li>Sirva com manteiga derretida e cebola frita por cima.</li>
+                  </ol>
+                </div>
+                <div class="recipe-tip">
+                  <h4><i class="fas fa-lightbulb"></i> Curiosidade:</h4>
+                  <p>O pierogi é um prato de origem polonesa muito popular no Paraná devido à forte imigração polonesa no estado, especialmente na região de Curitiba. Cada família tem sua receita tradicional, e existem variações de recheio como repolho, carne e até mesmo doces com frutas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/12/27/1377781593-13-oinhao.jpg" alt="Pinhão na Chapa">
+              <div class="recipe-badge">Sobremesa</div>
+            </div>
+            <div class="recipe-content">
+              <h3>Pinhão na Chapa com Mel de Abelhas Nativas</h3>
+              <div class="recipe-details">
+                <div class="recipe-info">
+                  <span class="recipe-time"><i class="fas fa-clock"></i> Preparo: 30 min</span>
+                  <span class="recipe-portions"><i class="fas fa-utensils"></i> Rende: 4 porções</span>
+                  <span class="recipe-difficulty"><i class="fas fa-signal"></i> Dificuldade: Fácil</span>
+                  <span class="recipe-region"><i class="fas fa-map-marker-alt"></i> Origem: Região Sul do Paraná</span>
+                </div>
+                <div class="recipe-ingredients">
+                  <h4><i class="fas fa-shopping-basket"></i> Ingredientes:</h4>
+                  <ul>
+                    <li>1 kg de pinhão fresco</li>
+                    <li>Água para o cozimento inicial</li>
+                    <li>Sal grosso a gosto</li>
+                    <li>100g de manteiga</li>
+                    <li>100ml de mel de abelhas nativas (jataí ou mandaçaia)</li>
+                    <li>Canela em pó para polvilhar</li>
+                  </ul>
+                </div>
+                <div class="recipe-preparation">
+                  <h4><i class="fas fa-mortar-pestle"></i> Modo de Preparo:</h4>
+                  <ol>
+                    <li>Lave bem os pinhões e faça um pequeno corte na casca de cada um para evitar que estourem durante o cozimento.</li>
+                    <li>Cozinhe os pinhões em água com sal por cerca de 20 minutos na panela de pressão.</li>
+                    <li>Escorra e deixe esfriar um pouco até que seja possível descascá-los.</li>
+                    <li>Descasque os pinhões, mantendo-os inteiros.</li>
+                    <li>Em uma chapa ou frigideira grande, derreta a manteiga em fogo médio.</li>
+                    <li>Adicione os pinhões descascados e doure por alguns minutos, virando ocasionalmente.</li>
+                    <li>Regue com o mel e polvilhe canela, misturando bem para caramelizar.</li>
+                    <li>Sirva quente como sobremesa ou aperitivo.</li>
+                  </ol>
+                </div>
+                <div class="recipe-tip">
+                  <h4><i class="fas fa-lightbulb"></i> Curiosidade:</h4>
+                  <p>O pinhão é a semente da Araucária, árvore símbolo do Paraná. A colheita ocorre entre abril e junho, e seu consumo é parte importante da cultura paranaense. O mel de abelhas nativas, como a jataí, é produzido em diversas regiões do estado e possui propriedades medicinais além do sabor único.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="more-recipes">
+          <a href="#" class="btn btn-secondary">Ver mais receitas <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calendário Sazonal Section -->
+    <section id="calendario" class="section">
+      <div class="section-container column">
+        <div class="section-badge">Sazonalidade</div>
+        <h2 class="section-title">Calendário Sazonal Paranaense</h2>
+        <p class="section-intro">
+          Consumir alimentos da estação é mais saudável, econômico e sustentável. 
+          Confira o que está no auge da safra em cada período do ano no Paraná.
+        </p>
+        
+        <div class="seasonal-calendar">
+          <div class="season">
+            <h3 class="season-title"><i class="fas fa-sun"></i> Verão <span>(Dezembro a Março)</span></h3>
+            <div class="season-items">
+              <div class="season-category">
+                <div class="category-icon"><i class="fas fa-apple-alt"></i></div>
+                <h4>Frutas</h4>
+                <ul>
+                  <li>Abacaxi</li>
+                  <li>Acerola</li>
+                  <li>Ameixa</li>
+                  <li>Carambola</li>
+                  <li>Goiaba</li>
+                  <li>Manga</li>
+                  <li>Maracujá</li>
+                  <li>Melancia</li>
+                  <li>Pêssego</li>
+                </ul>
+              </div>
+              <div class="season-category">
+                <div class="category-icon"><i class="fas fa-carrot"></i></div>
+                <h4>Legumes</h4>
+                <ul>
+                  <li>Abobrinha</li>
+                  <li>Berinjela</li>
+                  <li>Milho Verde</li>
+                  <li>Pepino</li>
+                  <li>Pimentão</li>
+                  <li>Quiabo</li>
+                  <li>Tomate</li>
+                </ul>
+              </div>
+              <div class="season-category">
+                <div class="category-icon"><i class="fas fa-leaf"></i></div>
+                <h4>Verduras</h4>
+                <ul>
+                  <li>Alface</li>
+                  <li>Almeirão</li>
+                  <li>Couve</li>
+                  <li>Rúcula</li>
+                  <li>Salsa</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="season">
+            <h3 class="season-title"><i class="fas fa-leaf"></i> Outono <span>(Março a Junho)</span></h3>
+            <div class="season-items">
+              <div class="season-category">
+                <div class="category-icon"><i class="fas fa-apple-alt"></i></div>
+                <h4>Frutas</h4>
+                <ul>
+                  <li>Abacate</li>
+                  <li>Caqui</li>
+                  <li>Jaca</li>
+                  <li>Kiwi</li>
+                  <li>Maçã</li>
+                  <li>Pera</li>
+                  <li>Uva</li>
+                </ul>
+              </div>
+              <div class="season-category">
+                <div class="category-icon"><i class="fas fa-carrot"></i></div>
+                <h4>Legumes</h4>
+                <ul>
+                  <li>Abóbora</li>
+                  <li>Batata-doce</li>
+                  <li>Cará</li>
+                  <li>Inhame</li>
+                  <li>Mandioca</li>
+                </ul>
+              </div>
+              <div class="season-category">
+                <div class="category-icon"><i class="fas fa-leaf"></i></div>
+                <h4>Verduras</h4>
+                <ul>
+                  <li>Acelga</li>
+                  <li>Brócolis</li>
+                  <li>Couve-flor</li>
+                  <li>Escarola</li>
+                  <li>Repolho</li>
+                </ul>
+              </div>
+            </div>
+            <div class="season-highlight">
+              <div class="highlight-image">
+                <img src="https://www.revistacircuito.com/wp-content/uploads/2018/06/Mantiqueira-Aromas-e-Sabores-Pinhao-bx.jpg" alt="Pinhão">
+              </div>
+              <div class="highlight-content">
+                <h4>Destaque da Estação: Pinhão</h4>
+                <p>O pinhão é a semente da Araucária, árvore símbolo do Paraná. Rico em carboidratos, proteínas e minerais como potássio e fósforo. A colheita ocorre entre abril e junho, principalmente na região Sul e Centro-Sul do estado.</p>
+                <p><strong>Dica de consumo:</strong> Além de cozido ou assado na chapa, o pinhão pode ser usado em paçocas, sopas, farofas e até mesmo em risoto.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="season">
+            <h3 class="season-title"><i class="fas fa-snowflake"></i> Inverno <span>(Junho a Setembro)</span></h3>
+            <div class="season-items">
+              <div class="season-category">
+                <div class="category-icon"><i class="fas fa-apple-alt"></i></div>
+                <h4>Frutas</h4>
+                <ul>
+                  <li>Laranja</li>
+                  <li>Limão</li>
+                  <li>Mexerica</li>
+                  <li>Morango</li>
+                  <li>Tangerina</li>
+                </ul>
+              </div>
+              <div class="season-category">
+                <div class="category-icon"><i class="fas fa-carrot"></i></div>
+                <h4>Legumes</h4>
+                <ul>
+                  <li>Alho-poró</li>
+                  <li>Batata</li>
+                  <li>Cenoura</li>
+                  <li>Ervilha</li>
+                  <li>Nabo</li>
+                </ul>
+              </div>
+              <div class="season-category">
+                <div class="category-icon"><i class="fas fa-leaf"></i></div>
+                <h4>Verduras</h4>
+                <ul>
+                  <li>Agrião</li>
+                  <li>Chicória</li>
+                  <li>Couve-de-bruxelas</li>
+                  <li>Espinafre</li>
+                  <li>Mostarda</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="season">
+            <h3 class="season-title"><i class="fas fa-seedling"></i> Primavera <span>(Setembro a Dezembro)</span></h3>
+            <div class="season-items">
+              <div class="season-category">
+                <div class="category-icon"><i class="fas fa-apple-alt"></i></div>
+                <h4>Frutas</h4>
+                <ul>
+                  <li>Abacaxi</li>
+                  <li>Banana</li>
+                  <li>Jabuticaba</li>
+                  <li>Mamão</li>
+                  <li>Melão</li>
+                </ul>
+              </div>
+              <div class="season-category">
+                <div class="category-icon"><i class="fas fa-carrot"></i></div>
+                <h4>Legumes</h4>
+                <ul>
+                  <li>Beterraba</li>
+                  <li>Cebola</li>
+                  <li>Cenoura</li>
+                  <li>Rabanete</li>
+                  <li>Vagem</li>
+                </ul>
+              </div>
+              <div class="season-category">
+                <div class="category-icon"><i class="fas fa-leaf"></i></div>
+                <h4>Verduras</h4>
+                <ul>
+                  <li>Alface</li>
+                  <li>Couve</li>
+                  <li>Rúcula</li>
+                  <li>Salsão</li>
+                  <li>Salsinha</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="seasonal-benefits">
+          <h3>Benefícios de consumir alimentos da estação:</h3>
+          <div class="benefits-grid">
+            <div class="benefit-item">
+              <div class="benefit-icon"><i class="fas fa-heart"></i></div>
+              <h4>Mais Sabor</h4>
+              <p>Alimentos colhidos no ponto certo de maturação têm sabor mais intenso e autêntico.</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon"><i class="fas fa-apple-alt"></i></div>
+              <h4>Mais Nutrientes</h4>
+              <p>Frutas e verduras da estação contêm mais vitaminas e minerais.</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon"><i class="fas fa-dollar-sign"></i></div>
+              <h4>Menor Preço</h4>
+              <p>A abundância da safra faz com que os preços sejam mais acessíveis.</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon"><i class="fas fa-seedling"></i></div>
+              <h4>Menos Agrotóxicos</h4>
+              <p>Alimentos da estação geralmente necessitam de menos defensivos agrícolas.</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon"><i class="fas fa-globe-americas"></i></div>
+              <h4>Menor Impacto Ambiental</h4>
+              <p>Redução na necessidade de transporte, refrigeração e estufas.</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon"><i class="fas fa-hands-helping"></i></div>
+              <h4>Apoio ao Produtor Local</h4>
+              <p>Fortalece a economia local e valoriza o trabalho dos agricultores da região.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feiras Section -->
+    <section id="feiras" class="section bg-pattern-light">
+      <div class="section-container column">
+        <div class="section-badge">Onde Encontrar</div>
+        <h2 class="section-title">Feiras e Mercados do Paraná</h2>
+        <p class="section-intro">
+          Conheça os principais pontos de venda direta de produtos rurais nas cidades paranaenses, 
+          onde você pode encontrar alimentos frescos diretamente dos produtores.
+        </p>
+        
+        <div class="feiras-list">
+          <div class="feira-item">
+            <div class="feira-icon"><i class="fas fa-store"></i></div>
+            <div class="feira-info">
+              <h3>Mercado Municipal de Curitiba</h3>
+              <p class="feira-schedule"><i class="fas fa-clock"></i> Segunda a sábado, das 8h às 18h | Domingo, das 8h às 13h</p>
+              <p class="feira-address"><i class="fas fa-map-marker-alt"></i> Av. Sete de Setembro, 1865 - Centro, Curitiba</p>
+              <p class="feira-description">
+                Inaugurado em 1958, o Mercado Municipal de Curitiba é um dos pontos turísticos mais tradicionais da capital paranaense. 
+                Com mais de 200 lojas, oferece uma grande variedade de produtos frescos, incluindo frutas, verduras, carnes, queijos, 
+                vinhos, especiarias e produtos típicos do Paraná.
+              </p>
+              <div class="feira-highlights">
+                <span>Produtos orgânicos</span>
+                <span>Gastronomia típica</span>
+                <span>Artesanato</span>
+                <span>Estacionamento</span>
+                <span>Acessibilidade</span>
+              </div>
+              <div class="feira-gallery">
+                <img src="https://www.mercadomunicipaldecuritiba.com.br/wp-content/uploads/2024/05/mercado_municipal_de_curitiba.jpg" alt="Mercado Municipal de Curitiba">
+                <img src="https://www.mercadomunicipaldecuritiba.com.br/wp-content/uploads/2019/11/00269283.jpg" alt="Bancas do Mercado Municipal">
+                <img src="https://www.tribunapr.com.br/wp-content/uploads/2021/12/28095613/Mercado-municipal-de-Curitiba.jpg" alt="Produtos do Mercado Municipal">
+              </div>
+            </div>
+          </div>
+          
+          <div class="feira-item">
+            <div class="feira-icon"><i class="fas fa-carrot"></i></div>
+            <div class="feira-info">
+              <h3>Feira do Produtor de Maringá</h3>
+              <p class="feira-schedule"><i class="fas fa-clock"></i> Terças e sextas, das 16h às 21h</p>
+              <p class="feira-address"><i class="fas fa-map-marker-alt"></i> Av. Prudente de Morais, s/n - Zona 7, Maringá</p>
+              <p class="feira-description">
+                A Feira do Produtor de Maringá reúne mais de 100 produtores rurais da região, oferecendo produtos frescos 
+                diretamente do campo. É conhecida pela qualidade das frutas, verduras, queijos, doces caseiros e comidas típicas.
+              </p>
+              <div class="feira-highlights">
+                <span>Produtos orgânicos</span>
+                <span>Comidas típicas</span>
+                <span>Preços acessíveis</span>
+                <span>Horário noturno</span>
+              </div>
+              <div class="feira-gallery">
+                <img src="https://exposicao.maringa.com/storage/exposicoes/instagram/E-no-final-da-tarde-e-inicio-da-noite-que-maringa-ganha-mais-vida-17042024-xbnLf.webp" alt="Feira do Produtor de Maringá">
+                <img src="https://www.sescsp.org.br/files/artigo/94136911-180d-41c0-b880-9ca1f7381b10.jpg" alt="Produtos da Feira de Maringá">
+                <img src="https://gmconline.com.br/wp-content/uploads/2023/02/805e40fc397289063b9251c2793efa04.jpg" alt="Comidas típicas da Feira de Maringá">
+              </div>
+            </div>
+          </div>
+          
+          <div class="feira-item">
+            <div class="feira-icon"><i class="fas fa-lemon"></i></div>
+            <div class="feira-info">
+              <h3>Feira de Londrina</h3>
+              <p class="feira-schedule"><i class="fas fa-clock"></i> Domingos, das 7h às 12h</p>
+              <p class="feira-address"><i class="fas fa-map-marker-alt"></i> Av. Saul Elkind - Conjunto Maria Cecília, Londrina</p>
+              <p class="feira-description">
+                A Feira de Londrina é uma das maiores do Norte do Paraná, reunindo produtores de toda a região. 
+                Destaca-se pela diversidade de produtos, incluindo café especial, frutas da estação e produtos da 
+                agroindústria familiar.
+              </p>
+              <div class="feira-highlights">
+                <span>Café especial</span>
+                <span>Produtos coloniais</span>
+                <span>Artesanato regional</span>
+                <span>Café da manhã típico</span>
+              </div>
+              <div class="feira-gallery">
+                <img src="https://www.londrinahistorica.com.br/admin/assets/uploads/images/publications/files/81eb7a1998f9810189f831e6254c27d3.png" alt="Feira de Londrina">
+                <img src="https://www.folhadelondrina.com.br/img/inline/2970000/0x800/FOLHA-percorre-as-16-quadras-da-Feira-do-Cincao0297302307201911181307.webp?fallback=https%3A%2F%2Fwww.folhadelondrina.com.br%2Fimg%2Finline%2F2970000%2FFOLHA-percorre-as-16-quadras-da-Feira-do-Cincao0297302307201911181307.jpg%3Fxid%3D5119598&xid=5119598" alt="Produtos da Feira de Londrina">
+                <img src="https://www.folhadelondrina.com.br/img/Facebook/3260000/Uma-experiencia-muito-generosa-de-cafe-colonial0326504000202409201742.jpg?xid=6121465" alt="Café da manhã na Feira de Londrina">
+              </div>
+            </div>
+          </div>
+          
+          <div class="feira-item">
+            <div class="feira-icon"><i class="fas fa-wheat-awn"></i></div>
+            <div class="feira-info">
+              <h3>Feira do Pequeno Produtor de Cascavel</h3>
+              <p class="feira-schedule"><i class="fas fa-clock"></i> Quartas e sábados, das 6h às 12h</p>
+              <p class="feira-address"><i class="fas fa-map-marker-alt"></i> Rua Fortunato Bebber, 987 - Pacaembu, Cascavel</p>
+              <p class="feira-description">
+                Localizada no Oeste do Paraná, a Feira do Pequeno Produtor de Cascavel reúne agricultores familiares 
+                que comercializam produtos frescos e processados. A região é conhecida pela forte produção de grãos, 
+                aves e suínos, refletindo na diversidade de produtos oferecidos.
+              </p>
+              <div class="feira-highlights">
+                <span>Embutidos artesanais</span>
+                <span>Mel e derivados</span>
+                <span>Panificação colonial</span>
+                <span>Hortaliças frescas</span>
+              </div>
+              <div class="feira-gallery">
+                <img src="https://souagro.net/wp-content/uploads/2022/12/img_06A19AAAC6AC2352FD850BEFB569BB45FF655FB9_Easy-Resize.com_.jpg" alt="Feira do Pequeno Produtor de Cascavel">
+                <img src="https://cascavel.atende.net/cidadao/noticia/atende.php?rot=1&aca=119&ajax=t&processo=downloadFile&file=411738588E145B44FB17023D265BB5F61073C92E&sistema=WPO&classe=UploadMidia" alt="Produtos da Feira de Cascavel">
+                <img src="https://s2-g1.glbimg.com/y5yImbeb62-buO67Rb-g5whvE1Y=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/h/4/4fJIX0RByBlxk964BBaA/famicloa.jpeg" alt="Embutidos artesanais da Feira de Cascavel">
+              </div>
+            </div>
+          </div>
+          
+          <div class="feira-item">
+            <div class="feira-icon"><i class="fas fa-leaf"></i></div>
+            <div class="feira-info">
+              <h3>Feira Verde de Ponta Grossa</h3>
+              <p class="feira-schedule"><i class="fas fa-clock"></i> Terças, quintas e sábados, das 7h às 12h</p>
+              <p class="feira-address"><i class="fas fa-map-marker-alt"></i> Praça Barão do Rio Branco - Centro, Ponta Grossa</p>
+              <p class="feira-description">
+                A Feira Verde de Ponta Grossa é um projeto que incentiva a produção e o consumo de alimentos orgânicos 
+                e agroecológicos. Localizada nos Campos Gerais, a feira reúne produtores certificados que oferecem 
+                alimentos livres de agrotóxicos e produzidos com respeito ao meio ambiente.
+              </p>
+              <div class="feira-highlights">
+                <span>100% orgânico</span>
+                <span>Certificação participativa</span>
+                <span>Produtos sazonais</span>
+                <span>Educação ambiental</span>
+              </div>
+              <div class="feira-gallery">
+                <img src="https://s2-g1.glbimg.com/6PfVkZdsSraTAbFn6If_u9O_RVQ=/0x0:621x412/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/R/S/aFSKP6QAaBjtwH9hAskA/feira-verde-2-0.jpg" alt="Feira Verde de Ponta Grossa">
+                <img src="https://mid-noticias.curitiba.pr.gov.br/2020/00297313.jpg" alt="Produtos orgânicos da Feira Verde">
+                <img src="https://agenciadenoticias.ms.gov.br/wp-content/uploads/2018/08/hortali%C3%A7a-Neia-Maceno.jpg" alt="Hortaliças da Feira Verde">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria Section -->
+    <section id="galeria" class="section">
+      <div class="section-container column">
+        <div class="section-badge">Imagens do Campo</div>
+        <h2 class="section-title">Galeria de Sabores</h2>
+        <p class="section-intro">
+          Imagens que capturam a beleza dos alimentos do campo paranaense e a riqueza da cultura rural.
+        </p>
+        
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="https://www.promom.com.br/img/posts/postagens/202205091919232064/800/19195209052022.jpg" alt="Colheita de verduras frescas">
+            <div class="gallery-caption">
+              <h4>Colheita Matinal</h4>
+              <p>Colheita de verduras frescas nas primeiras horas do dia em Colombo, região metropolitana de Curitiba</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4sWm8GEH5362cG9APqT-F-omYRaD5RIVTaQ&s" alt="Bancas coloridas na feira">
+            <div class="gallery-caption">
+              <h4>Cores da Feira</h4>
+              <p>A diversidade de cores e aromas nas bancas da feira de Maringá</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item">
+            <img src="https://agenciapara.com.br/midias/2015/grandes/55289_147544.jpg" alt="Artesanato rural">
+            <div class="gallery-caption">
+              <h4>Mãos que Criam</h4>
+              <p>Artesanato que preserva tradições rurais em Prudentópolis</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item">
+            <img src="https://chapinhanamala.com.br/wp-content/uploads/2018/07/feijuca.jpg" alt="Preparo de alimentos tradicionais">
+            <div class="gallery-caption">
+              <h4>Saberes Ancestrais</h4>
+              <p>Preparo de alimentos com técnicas tradicionais em comunidade faxinalense</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item">
+            <img src="https://armac.com.br/wordpress/wp-content/uploads/2023/01/armac-agricultura-sustentavel-blog.png" alt="Plantação sustentável">
+            <div class="gallery-caption">
+              <h4>Terra Fértil</h4>
+              <p>Plantação sustentável respeitando os ciclos naturais em Toledo</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item">
+            <img src="https://chezmarina.com.br/wp-content/uploads/2022/04/mesa_decorada_com_frutas-chezmarina02-1160x870.jpg" alt="Mesa posta com alimentos do campo">
+            <div class="gallery-caption">
+              <h4>Mesa Farta</h4>
+              <p>Mesa posta com os sabores autênticos do campo paranaense</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item">
+            <img src="https://imagens-cdn.canalrural.com.br/wp-content/uploads/LondrinaFazendaPalmeira_023-scaled.jpg" alt="Plantação de café no Norte do Paraná">
+            <div class="gallery-caption">
+              <h4>Ouro Verde</h4>
+              <p>Plantação de café no Norte do Paraná, região de Londrina</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item">
+            <img src="https://www.iat.pr.gov.br/sites/agua-terra/arquivos_restritos/files/imagem/2022-04/img_6244.jpg" alt="Colheita de pinhão">
+            <div class="gallery-caption">
+              <h4>Tesouro da Araucária</h4>
+              <p>Colheita tradicional de pinhão na região de Guarapuava</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="section">
+      <div class="section-container">
+        <div class="section-text">
+          <div class="section-badge">Sobre o Projeto</div>
+          <h2 class="section-title">Sabores do Campo na Cidade</h2>
+          <p>
+            O projeto "Sabores do Campo na Cidade" foi desenvolvido como parte do Projeto Agrinho 2025, 
+            com o objetivo de valorizar a conexão entre o campo e a cidade, destacando a importância 
+            da agricultura paranaense para a alimentação e a economia do estado.
+          </p>
+          <p>
+            Através deste site, buscamos mostrar a jornada dos alimentos desde a produção até o consumo, 
+            valorizando o trabalho dos agricultores e incentivando o consumo consciente de produtos locais e sazonais.
+          </p>
+          <p>
+            Este projeto é uma iniciativa educacional que visa aproximar os estudantes da realidade do campo, 
+            promovendo valores como sustentabilidade, respeito ao meio ambiente e valorização da cultura rural.
+          </p>
+          
+          <div class="about-team">
+            <h3>Equipe do Projeto</h3>
+            <div class="team-members">
+              <div class="team-member">
+                <img src="https://placehold.co/150x150/4A6741/FFFFFF?text=MZ" alt="MZ">
+                <h4>Vinicius Bonifácio</h4>
+                <p>Desenvolvimento e Conteúdo</p>
+              </div>
+              <div class="team-member">
+                <img src="https://lh3.googleusercontent.com/a-/ALV-UjXVgKbLHoStQHP_o__fd29VKAvxuw6Pzg3GhP1VQQjfluNl5g=s1024-c" alt="Professor Alesandro">
+                <h4>Professor Alessandro</h4>
+                <p>Orientação e Coordenação</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="about-school">
+            <h3>Colégio Estadual Dr. Décio Dossi</h3>
+            <p>
+              Este projeto foi desenvolvido pelo aluno do Colégio Estadual Dr. Décio Dossi de Fazenda Rio Grande, 
+              como parte do Projeto Agrinho 2025.
+            </p>
+          </div>
+          
+          <div class="about-agrinho">
+            <h3>Sobre o Projeto Agrinho</h3>
+            <p>
+              O Projeto Agrinho é uma iniciativa do Sistema FAEP/SENAR-PR que existe há mais de 25 anos, 
+              sendo o maior programa de responsabilidade social do Sistema FAEP. Anualmente, alcança mais 
+              de 1 milhão de crianças em todo o Paraná, trabalhando temas como cidadania, saúde, meio ambiente 
+              e agricultura sustentável.
+            </p>
+            <p>
+              Em 2025, o tema central "Festejando a Conexão Campo Cidade" celebra a relação de interdependência 
+              entre os ambientes rural e urbano, destacando como o campo paranaense alimenta as cidades e como 
+              as cidades fornecem tecnologia, serviços e mercado para o campo.
+            </p>
+          </div>
+        </div>
+        <div class="section-image">
+          <div class="image-container">
+            <img src="https://i.ytimg.com/vi/FUrdCkeL-fY/maxresdefault.jpg" alt="Projeto Agrinho">
+          </div>
+          <div class="image-caption">
+            Projeto Agrinho
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer>…</footer>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="https://placehold.co/150x150/4A6741/FFFFFF?text=Logo" alt="Logo Sabores do Campo" class="logo-img">
+          <h2>Sabores do Campo</h2>
+          <p>Festejando a conexão entre o campo paranaense e a cidade</p>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Navegação</h3>
+          <ul>
+            <li><a href="#inicio"><i class="fas fa-chevron-right"></i> Início</a></li>
+            <li><a href="#parana-agricola"><i class="fas fa-chevron-right"></i> Paraná Agrícola</a></li>
+            <li><a href="#do-campo-a-mesa"><i class="fas fa-chevron-right"></i> Do Campo à Mesa</a></li>
+            <li><a href="#produtores"><i class="fas fa-chevron-right"></i> Produtores</a></li>
+            <li><a href="#receitas"><i class="fas fa-chevron-right"></i> Receitas</a></li>
+            <li><a href="#calendario"><i class="fas fa-chevron-right"></i> Calendário</a></li>
+            <li><a href="#feiras"><i class="fas fa-chevron-right"></i> Feiras</a></li>
+            <li><a href="#galeria"><i class="fas fa-chevron-right"></i> Galeria</a></li>
+            <li><a href="#sobre"><i class="fas fa-chevron-right"></i> Sobre</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-credits">
+          <h3>Créditos</h3>
+          <p>Desenvolvido por: Vinicius Bonifácio</p>
+          <p>Orientação: Professor Alessandro</p>
+          <p>Colégio Estadual Dr. Décio Dossi</p>
+          <p>Projeto Agrinho 2025</p>
+          <p>Fotos: Banco de imagens do Projeto</p>
+          <p>Conteúdo: Pesquisa do aluno</p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>Projeto Agrinho 2025 – Subcategoria 4 | Desenvolvido por Vinicius Bonifácio</p>
+        <p>Todos os direitos reservados &copy; 2025</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
