@@ -236,7 +236,7 @@ nav ul li a:hover::after {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background-image: url('https://guiadoensino.com.br/wp-content/uploads/2018/10/cropped-campo-cidade-1536x862.jpg');
+  background-image: url('assets/images/CampoCidade.webp');
   background-size: cover;
   background-position: center;
   position: relative;
