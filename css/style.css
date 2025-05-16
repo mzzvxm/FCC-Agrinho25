@@ -236,7 +236,7 @@ nav ul li a:hover::after {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background-image: url('../assets/images/CampoCidade.webp');
+  background-image: url('../assets/images/campo-cidade.webp');
   background-size: cover;
   background-position: center;
   position: relative;
