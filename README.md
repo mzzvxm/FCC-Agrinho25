@@ -1,4 +1,4 @@
-# FCC Agrinho 2025 - Site Oficial
+# FCC Agrinho 2025
 
 Este é o site desenvolvido para o **Concurso Agrinho de Programação 2025**, na Subcategoria 4 (HTML e CSS), com o tema **"Festejando a conexão campo-cidade"**. O projeto foi criado com foco educativo, usando apenas tecnologias web básicas como **HTML5** e **CSS3**, respeitando os critérios de autoria, aprendizagem e orientação.
 
