@@ -19,7 +19,6 @@ O site está dividido em várias seções temáticas:
 - **Tecnologia**: Como a tecnologia conecta as duas realidades.
 - **Meio Ambiente**: Sustentabilidade e responsabilidade ambiental.
 - **Galeria**: Imagens que celebram a união rural-urbana.
-- **Contato**: Informações para contato e sugestões.
 
 ## Tecnologias Utilizadas
 
