@@ -1642,6 +1642,10 @@ nav ul li a:hover::after {
   border: 3px solid var(--color-primary-light);
 }
 
+.about-team .team-members .team-member:first-child img {
+  transform: rotate(90deg);
+}
+
 .team-member h4 {
   color: var(--color-primary-dark);
   margin-bottom: 0.25rem;
