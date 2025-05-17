@@ -803,6 +803,14 @@ nav ul li a:hover::after {
   transition: transform var(--transition-slow);
 }
 
+.producer-image img[alt="Cooperativa Witmarsum"] {
+  object-fit: contain;
+  object-position: center;
+  background-color: white; /* opcional, ajuda a destacar o logo */
+  padding: 1rem; /* opcional, para dar respiro ao redor do logo */
+  height: 100%;
+}
+
 .producer-card:hover .producer-image img {
   transform: scale(1.05);
 }
