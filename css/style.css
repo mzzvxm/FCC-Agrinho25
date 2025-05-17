@@ -619,10 +619,23 @@ nav ul li a:hover::after {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  transition: all var(--transition-normal);
+}
+
+.region-products span:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-white);
+  transform: translateY(-3px) scale(1.05);
 }
 
 .region-products span i {
   color: var(--color-primary);
+  transition: transform 0.5s ease;
+}
+
+.region-products span:hover i {
+  color: var(--color-white);
+  animation: rotate 1s ease-in-out;
 }
 
 /* Estatísticas do Paraná */
