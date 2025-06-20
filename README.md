@@ -4,21 +4,25 @@ Este é o site desenvolvido para o **Concurso Agrinho de Programação 2025**, n
 
 ## Acesse o site
 
-[https://mzzvxm.github.io/FCC-Agrinho25/](https://mzzvxm.github.io/FCC-Agrinho25/)
+[fccagrinho25.vercel.app](https://fccagrinho25.vercel.app)
 
 ## Objetivo
 
-Apresentar, de forma interativa e acessível, a importância da conexão entre o campo e a cidade no desenvolvimento sustentável da sociedade, valorizando a cultura rural e urbana, o trabalho agrícola, a educação e a tecnologia.
+Este projeto, "Sabores do Campo na Cidade", explora a conexão entre o campo paranaense e a vida urbana, destacando a origem dos alimentos, receitas tradicionais e a presença dos produtos rurais nos centros urbanos do Paraná. O objetivo é celebrar a interdependência entre o campo e a cidade, valorizando o trabalho dos agricultores paranaenses e a importância da agricultura sustentável, alimentos saudáveis e comércio justo.
 
 ## Estrutura do Projeto
 
 O site está dividido em várias seções temáticas:
 
-- **Início**: Introdução visual com mensagem de boas-vindas.
-- **Educação**: A importância da educação na integração campo-cidade.
-- **Tecnologia**: Como a tecnologia conecta as duas realidades.
-- **Meio Ambiente**: Sustentabilidade e responsabilidade ambiental.
-- **Galeria**: Imagens que celebram a união rural-urbana.
+*   **Início**: Apresentação geral do projeto e seus objetivos.
+*   **Paraná Agrícola**: Detalhes sobre a importância da agricultura no Paraná, com informações sobre os principais produtos agrícolas por região (Norte, Noroeste, Oeste, Sudoeste, Centro-Sul, Campos Gerais, Litoral) e estatísticas relevantes.
+*   **Do Campo à Mesa**: Explica a jornada dos alimentos desde o plantio e cultivo, colheita, processamento, transporte e distribuição.
+*   **Produtores**: Informações sobre os produtores rurais.
+*   **Receitas**: Receitas que utilizam produtos do campo.
+*   **Calendário**: Calendário de eventos relacionados à agricultura.
+*   **Feiras**: Informações sobre feiras de produtos agrícolas.
+*   **Galeria**: Galeria de imagens relacionadas ao projeto.
+*   **Sobre**: Detalhes sobre o projeto e seus criadores.
 
 ## Tecnologias Utilizadas
 
@@ -33,3 +37,12 @@ O site está dividido em várias seções temáticas:
 - Navegação fluida e clara
 - 100% feito à mão (sem IA, sem cópia de templates)
 - Orientado por princípios de acessibilidade e estética moderna
+
+## Créditos
+
+*   **Desenvolvido por**: Vinicius Bonifácio
+*   **Orientação**: Professor Alessandro
+*   **Colégio**: Colégio Estadual Dr. Décio Dossi
+*   **Projeto**: Agrinho 2025 - "Festejando a conexão campo cidade"
+*   **Fotos**: Banco de imagens do projeto. Cada imagem possui um ícone de lupa que redireciona à fonte original da imagem.
+*   **Conteúdo**: Pesquisa do aluno
