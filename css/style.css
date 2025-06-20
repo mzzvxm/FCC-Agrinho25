@@ -847,7 +847,7 @@ nav ul li a:hover::after {
   border-radius: var(--radius-md);
   overflow: hidden;
   box-shadow: var(--shadow-md);
-  transition: transform var(--transition-normal);
+  transition: transform var(--transition-slow);
 }
 
 .producer-card:hover {
